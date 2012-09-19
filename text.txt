@@ -1,0 +1,19 @@
+Performance is generally not an issue, especially when using scripting languages
+that are compiled to intermediate byte code, as is the case for languages like Python
+and Perl, for example. And while it is true that scripted languages are compiled each
+time they are run, this has a negligible effect when the program is a long running
+web application.
+Think beyond the project. Once implemented and deployed, your application might
+have a long and happy life, but that inevitably means that there will be requests for
+smaller or larger changes and choosing a suitable language can help to reduce the
+maintenance effort. Compared to compiled languages that in general have quite
+low-level instructions and language constructs, interpreted languages have (very)
+high level constructs that make for condensed code that packs a lot of meaning in a
+few statements. That is not only easier to read but also faster to interpret and in the
+end these high level constructs, once interpreted, run at (almost) compiled speed
+making the performance difference sometimes hard to spot. More meaning and less
+code do make for easier reading and this is a huge benefit when maintaining code.
+In the end, the choice for the language to implement the web application is at least in part a
+matter of taste, but in this book we opt for Python as it offers an optimal tradeoff between
+the different considerations.
+
